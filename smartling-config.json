@@ -1,0 +1,45 @@
+{
+  "locales": [
+    {
+      "smartling": "ja-JP",
+      "application": "ja"
+    },
+    {
+      "smartling": "tr-TR",
+      "application": "tr"
+    },
+    {
+      "smartling": "ko-KR",
+      "application": "ko"
+    },
+    {
+      "smartling": "es-ES",
+      "application": "es"
+    },
+    {
+      "smartling": "ru-RU",
+      "application": "ru"
+    },
+    {
+      "smartling": "pt-BR",
+      "application": "pt"
+    },
+    {
+      "smartling": "vi-VN",
+      "application": "vi"
+    },
+    {
+      "smartling": "nl-NL",
+      "application": "nl"
+    }
+  ],
+  "resourceSets": [
+    {
+      "type": "json",
+      "pathRegex": "smartling\\/en.json",
+      "authorizeContent": false,
+      "translationPathExpression": "${locale}_finish.${originalFile.extension}",
+      "translationCommitMessage": "Task Mobile translate ${originalFile.name} to ${locale}\n${translatedFile.fullName}"
+    }
+  ]
+}
